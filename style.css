@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* Header logo and links*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+/* hero */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+/* Information part */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-items {
+    display: flex;
+    
+}
+
+.info-image {
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: 300;
+    color:#1F2937;
+}
+
+.quote-author {
+
+}
+
+/* Call to Action Panel */
+
+.action {
+
+}
+
+.action-panel {
+
+}
+
+.action-panel-text {
+
+}
+
+.action-panel-subtext {
+
+}
+
+.action-panel-button {
+
+}
+
+/* footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+/*lists and links formatting*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
