@@ -13,14 +13,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 0 0 auto;
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 8px 0px;
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8; 
+    flex: 1 0 auto;
+    margin: 0px 200px;
+    width: auto;
 }
 
 .header-links {
     font-size: 18px;
+    margin: 0px 200px;
+    flex: 1 0 auto;
+    width: auto;
+    color: #E5E7EB;
 }
 
 /* hero */
@@ -28,8 +40,15 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 48px 0px;
+    align-items: center;
+}
+
+.hero-words {
+    width: 400px;
+    height: 200px;
+    margin-left: 8%;
 }
 
 .hero-title{
@@ -47,7 +66,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+    width: 450px;
+    height: 250px;
     color: #F9FAF8;
+    margin-right: 4%;
+}
+
+.hero-sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    color: #F9FAF8;
+    margin-top: 8px;
+    width: 90px;
+    padding: 3px 16px;
+    font-weight: 600;
 }
 
 /* Information part */
@@ -56,8 +90,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; 
-    padding: 48px 0px;
+    justify-content: space-around;
+    height: 500px;
 }
 
 .info-title {
@@ -68,12 +102,30 @@ body {
 
 .info-items {
     display: flex;
-    
+    gap: 32px;
+}
+
+.info-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
 }
 
 .info-image {
     border: 2px solid #3882F6;
     border-radius: 10px;
+    height: 200px;
+    flex: 1 0 auto;
+}
+
+.info-image-subtext {
+    color: #E5E7EB;
+    font-size: 20px;
+    width: 200px;
+    text-align: justify;
+    display: flex;
 }
 
 .quote {
@@ -96,6 +148,7 @@ body {
 
 .quote-author {
     font-weight: 600;
+    font-size: 20px;
     text-align: end;
 }
 
@@ -116,7 +169,6 @@ body {
     justify-content: space-between;
     padding: 32px 48px;
     width: 600px;
-    margin: 0px 200px;
 }
 
 .action-panel-maintext {
